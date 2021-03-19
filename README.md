@@ -25,4 +25,4 @@ Just enter the github username of someone to input field.
 
 ## What the app looks like
 
-![alt text]()
+![alt text](https://github.com/cengizhankose/github-cards-app/blob/master/Screenshot%202021-03-19%20153447.png)
