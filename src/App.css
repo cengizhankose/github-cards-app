@@ -1,38 +1,82 @@
 .App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .header {
+  color: whitesmoke;
+  margin: 2rem 0 4rem 0;
+  font-size: 2em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App Form {
+  margin-bottom: 5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App Form input {
+  background-color: #1d1d4d;
+  color: whitesmoke;
+  border: 1px solid white;
+  width: 20%;
+  height: 2.2rem;
+  border-radius: 5px;
+  font-size: 1.3em;
+}
+
+.App Form button {
+  background-color: #1d1d4d;
+  border: 1px solid white;
+  width: 8%;
+  height: 2.5rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.App .CardList {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.App .CardList .github-profile {
+  background-color: #1d1d4d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin-top: 1rem;
+  padding: 1rem 0 1rem 0;
+  color: whitesmoke;
+  font-size: 2em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .CardList .github-profile img {
+  height: 13rem;
 }
+/*# sourceMappingURL=App.css.map */
